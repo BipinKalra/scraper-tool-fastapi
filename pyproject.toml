@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "scraper"
+version = "0.1.0"
+description = ""
+authors = ["Bipin Kalra <bipinkalra@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+requests-async = "^0.6.2"
+aiohttp = "^3.9.5"
+bs4 = "^0.0.2"
+aiohttp-retry = "^2.8.3"
+pyjwt = "^2.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
